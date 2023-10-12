@@ -1,0 +1,67 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.wrap {
+  position: relative;
+  padding-top: 24px;;
+} 
+
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+}
+
+.input {
+  width: 100%;
+  font-size: 24px;
+  padding: 5px 10px;
+}
+
+.error {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  color: tomato;
+}
+
+.wrapCheckbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.labelCheckbox {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.submit {
+  align-self: flex-end;
+  width: 160px;
+  height: 34px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.errorSubmit {
+  align-self: flex-end;
+  font-size: 16px;
+  color: tomato;
+}
+
+.pending {
+  align-self: flex-end;
+  height: 34px;
+}
