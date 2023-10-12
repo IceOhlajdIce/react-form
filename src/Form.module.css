@@ -22,6 +22,10 @@
   padding: 5px 10px;
 }
 
+.input[aria-invalid="true"] {
+  outline: 2px solid tomato;
+}
+
 .error {
   position: absolute;
   top: 0;
